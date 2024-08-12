@@ -1,0 +1,322 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    overflow-x: hidden;
+}
+.home{
+    background-image: url(photo/3d-rendering-purple-blue-abstract-600nw-2397273993.jpg);
+    height: 100vh;
+    background-color: rgb(0,0,0,0.5);
+    background-size: 100% 100%;
+    /* opacity: 80%; */
+}
+.head{
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo{
+    width: 201px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.mybtn{
+    color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.mybtn:hover {
+    color: purple;
+}
+.iii{
+    width: 50px;
+    height: 50px;
+}
+.menu {
+    width: 300px;
+    display: block;
+    background :#1b1f46;
+    /* background: rgb(100, 61, 136); */
+    height: 100%;
+    top: 0;
+    right: -300px;
+    position: fixed;
+    z-index: 100;
+    text-align: center; 
+    transition: right 0.4s;
+
+}
+li{
+    color: white;
+}
+ul{list-style-type: none;}
+.ul1{
+    list-style-type: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.clo{
+    position: relative;
+    left: 42%;
+}
+.ul1 li a{
+    color: white;
+}
+.ul1 li a:hover{
+    color: purple;
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: -64px;
+    gap: 14px;
+}
+.social-icons li {
+    border: white;
+    background: white;
+    padding: 11px;
+    border-radius: 50%;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+.social-icons > li > a {
+    color: #333;
+}
+.social-icons > li > a> i:hover{
+    color: purple;
+}
+.last{
+    margin-top: 20px;
+}
+.content {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+@media screen and (min-width: 768px) {
+h1 {
+    font-size: 75px;
+}
+}
+.we{
+    /* background-image: linear-gradient(to right, blue 30%, purple 30%); */
+    background: #1b1f46;;
+
+}
+.content p {
+    font-size: 21px;
+    font-weight: 200;
+    text-align: center;
+}
+.bbbbb{
+padding: 18px 45px;
+}
+.bbbbb:hover {
+    color:purple;
+    background-color: white;
+
+}
+.diamond{
+width: 60%;
+    /* height: 286px; */
+    color: #007bff;
+    /* border: solid;
+    border-color: black; */
+    /* margin: 20px; */
+    transition: 0.4s;
+}
+
+
+.icon{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    border: 1px #b3b3b3 solid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+ .icon:hover{
+    background-color: transparent;
+    color: transparent;
+  
+} 
+/* .diamond:hover{
+    background-color: #007bff;
+} */
+.maclass>h3{
+    color: white;
+}
+.maclass:hover{
+    color: white;
+    background-color: transparent;
+}
+.my-clo{
+    gap: 50px;
+}
+.img{
+    width: 90%;
+    height: 80%;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+    /* z-index: 2; */
+}
+
+.mask{
+    width: 83%;
+    top: 10%;
+    height: 80%;
+    position: absolute;
+    border-radius: 12px;
+    background-color: rgb(0,0,0,0.5);
+    opacity: 0;
+    /* z-index: 1; */
+    
+    transition: all 0.4s;
+}
+.mask:hover{
+    opacity: 1;
+}
+@media screen and (max-width: 768px) {
+    .mask{
+        width: 85%;
+    }
+    }
+    /* @media screen and (min-width: 768px) {
+        .mask{
+            width: 85%;
+        }
+    } */
+iframe{
+    width: 100%;
+    height: 500px;
+}
+.input{
+    background-color: #b3b3b3;
+}
+.adrerses p {
+    color: #b3b3b3;
+}
+.social-icons li a:hover{
+    color: #007bff;
+}
+.lastbb{
+    transition: all 0.4s;
+}
+.lastbb:hover{
+    color:#007bff ;
+    background-color: white;
+}
+
+/* From Uiverse.io by cssbuttons-io */ 
+.special_btn {
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+   }
+   
+   .special_btn::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   .special_btn:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   .special_btn:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+    .logo2{
+        position: relative;
+        top: -100vh;
+        animation: slideDown 1.5s ease-out forwards;
+   }
+   @keyframes slideDown {
+    0% {
+        top: -100vh;
+    }
+    100% {
+        top: 0;
+    }
+}
+.w-90 {
+    width: 90%;
+}
+
+@media (max-width: 767.98px) {
+    .my-clo {
+        margin-bottom: 20px; /* Adjusts spacing between stacked sections */
+    }
+    .gap-4 {
+        gap: 2rem !important; /* Adjusts the gap between sections on smaller screens */
+    }
+}
+.slogan {
+    white-space: nowrap; /* Prevents the text from wrapping onto a new line */
+    font-size: 1.5rem; /* Adjust the font size for better fit on smaller screens */
+}
+
+@media (max-width: 767.98px) {
+    .slogan {
+        font-size: 1.25rem; /* Further reduce font size for small screens if needed */
+    }
+}
+@media (max-width: 699) {
+    .slogan {
+        font-size: 0.25rem; /* Further reduce font size for small screens if needed */
+    }
+}
+
